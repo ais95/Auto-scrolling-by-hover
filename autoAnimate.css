@@ -1,0 +1,47 @@
+			body{
+				padding: 0;
+				margin: 0;
+				margin-bottom: 120px;
+			}
+			h2,p{
+				text-align: center;
+				margin-top: 48px;
+			}
+			.vAnimate{
+				margin: 12px auto;
+				width: 480px;
+				height: 340px;
+				border: 1px solid #f0f0f0;
+				overflow: hidden;
+				position: static;
+				padding: 3px;
+				box-sizing: border-box;
+				cursor: pointer;
+			}
+			.vAnimate .vItem{
+				width: 100%;
+				height: auto;
+				position: relative;
+				top: 0;
+				transition: linear 4.5s;
+			}			
+			
+			
+			.hAnimate{
+				margin: 12px auto;
+				width: 480px;
+				height: 540px;
+				border: 1px solid #f0f0f0;
+				overflow: hidden;
+				position: static;
+				padding: 3px;
+				box-sizing: border-box;
+				cursor: pointer;
+			}
+			.hAnimate .hItem{
+				height: 100%;
+				position: relative;
+				top: 0;
+				left:0;
+				transition: linear 4.5s;
+			}
