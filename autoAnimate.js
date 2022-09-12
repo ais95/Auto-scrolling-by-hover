@@ -1,5 +1,8 @@
-			//Vertical scrolling animation
+			
 			$(document).ready(function(){
+				
+				//Vertical scrolling animation
+				
 				//var vAheight = $('.vAnimate').height();
 				//var vIheight = $('.vAnimate>.vItem').height();
 				//console.log('container height '+vAheight+'px');
@@ -15,10 +18,10 @@
 				  $(this).find(".vItem").css("top",'0');
 				  $(this).find(".vItem").css("margin-top",'0');
 				});
-			});
-			
-			//Horizontal scrolling animation
-			$(document).ready(function(){
+				
+				
+				//Horizintal scrolling animation
+				
 				//var hAwidth = $('.hAnimate').width();
 				//var hIwidth = $('.hAnimate>.hItem').width();
 				//console.log('container width '+hAwidth+'px');
@@ -33,5 +36,6 @@
 				$(".hAnimate").mouseout(function(){
 				  $(this).find(".hItem").css("left",'0');
 				  $(this).find(".hItem").css("margin-left",'0');
-				});
+				});				
 			});
+		
